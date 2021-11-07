@@ -1,0 +1,441 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/*global css*/
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.row{
+	width: 100%;
+	float: left;
+}
+.col-4{
+	width: 33.33%;
+	float: left;
+}
+.col-6{
+	width: 50%;
+	float: left;
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+
+/*global css end*/
+
+/*header css start*/
+.header{
+	width: 100%;
+	float: left;
+	padding: 15px 0px;
+	border-bottom: 1px solid #eee;
+	background: white;
+}
+/*logo css start*/
+.header .logo{
+	width: auto;
+}
+
+/*menu css start*/
+.header .menu{
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+.header .menu li{
+	list-style: none;
+	display: inline-block;
+	margin: 10px 0px 0px;
+}
+.header .menu ul li a{
+	font-size: 14px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	text-transform: capitalize;
+	color: #1C1C59;
+	margin: 0px 0px 0px 20px;
+}
+.header .menu ul li a:hover{
+	color: #1B6BFF;
+}
+/*header css end*/
+/*banner css*/
+.banner{
+	width: 100%;
+	padding: 50px 0px;
+	text-align: center;
+}
+.banner h1{
+	font-size: 54px;
+	font-weight: 700;
+	line-height: 64px;
+	color: #1C1C59;
+	margin: 40px 0px 15px;
+}
+.banner h1 span{
+	color: #1B6BFF;
+}
+.banner p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #1C1C59;
+	margin-bottom: 40px;
+}
+
+.banner .image img{
+	width: 55%;
+	margin: 15px 0px 0px;
+}
+/*banner css end*/
+/*main body css start*/
+.main-body{
+	width: 100%;
+	float: left;
+	padding: 40px 0px;
+}
+.main-body .inner-left{
+	width: 100%;
+	float: left;
+	text-align: right;
+	margin: 0px 25px 0px 0px;
+}
+.main-body .inner-left h1{
+	font-size: 54px;
+	font-weight: 700;
+	line-height: 64px;
+	color: #FF2757;
+	margin: 0px 15px 0px 0px;	
+}
+.main-body .inner-left p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #1C1C59;
+	margin: 15px 15px 0px 0px;	
+}
+.main-body .inner-right{
+	width: 100%;
+	float: left;
+}
+.main-body .inner-right h1{
+	font-size: 54px;
+	font-weight: 600;
+	line-height: 64px;
+	color: #1C1C59;
+	margin: 0px 0px 0px 15px;
+}
+/*main body css end*/
+/*image-box css start*/
+.image-box{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+}
+.box-image{
+	width: 80%;
+	float: left;
+	margin: 0px 15px;
+	padding: 40px 25px;
+}
+.image-box .box-image .image-fluid{
+	width: 100%;
+	height: 200px;
+}
+.image-box .box-image h5{
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 32px;
+	color: #1C1C59;
+	margin: 10px 0px 10px 0px;
+}
+.image-box .box-image p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #1C1C59;
+}
+.cl-1{
+	background: #FFE8EB;
+}
+.cl-2{
+	background: #E7FBF4;
+}
+.cl-3{
+	background: #FFF8E6;
+}
+/*image-box css end*/
+/*footer css start*/
+.footer{
+	width: 100%;
+	float: left;
+	padding: 15px 0px;
+	background: #1B6BFF;
+	text-align: center;
+}
+.footer p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #9ECEFF;
+}
+.footer p a{
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 4px;
+}
+/*footer css end*/
+
+/*responsive css start*/
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  /*global css*/
+.container{
+  width: 100%;
+}
+
+.row{
+  width: 100%;
+  float: left;
+}
+.col-4{
+  width: 100%;
+  float: left;
+}
+.col-6{
+  width: 50%;
+  float: left;
+}
+.col-12{
+  width: 100%;
+  float: left;
+}
+
+/*global css end*/
+/*header css start*/
+.header{
+	width: 100%;
+	float: left;
+	padding: 10px 0px;
+	background: white;
+}
+/*logo css start*/
+.header .logo{
+	width: auto;
+}
+
+/*menu css start*/
+.header .menu{
+	width: 80%;
+	float: left;
+	text-align: left;
+}
+.header .menu li{
+	list-style: none;
+	/*display: inline-block;*/
+	margin: 5px 0px 0px;
+}
+.header .menu ul li a{
+	font-size: 10px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	text-transform: capitalize;
+	color: #1C1C59;
+	margin: 0px 0px 0px 5px;
+}
+
+/*header css end*/
+/*banner css*/
+.banner{
+	width: 100%;
+	padding: 50px 0px;
+	text-align: center;
+}
+.banner h1{
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 35px;
+	margin: 40px 0px 15px;
+}
+
+.banner p{
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 22px;
+	margin-bottom: 40px;
+}
+
+.banner .image img{
+	width: 60%;
+	margin: 15px 0px 0px;
+}
+/*banner css end*/
+/*main body css start*/
+.main-body{
+	width: 100%;
+	float: left;
+	padding: 20px 0px;
+}
+.main-body .inner-left{
+	width: 100%;
+	float: left;
+	text-align: right;
+	margin: 0px 25px 0px 0px;
+}
+.main-body .inner-left h1{
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 35px;
+	margin: 0px 5px 0px 0px;	
+}
+.main-body .inner-left p{
+	font-size: 10px;
+	font-weight: 400;
+	line-height: 20px;
+	margin: 8px 5px 0px 0px;	
+}
+.main-body .inner-right{
+	width: 100%;
+	float: left;
+}
+.main-body .inner-right h1{
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 35px;
+	margin: 0px 0px 0px 15px;
+}
+/*main body css end*/
+/*image-box css start*/
+.image-box{
+	width: 100%;
+	float: left;
+	padding: 40px 0px;
+}
+.box-image{
+	width: 80%;
+	float: left;
+	margin: 0px 0px 20px 15px;
+	padding: 40px 25px;
+}
+.image-box .box-image .image-fluid{
+	width: 100%;
+	height: 200px;
+}
+.image-box .box-image h5{
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 32px;
+	color: #1C1C59;
+	margin: 10px 0px 10px 0px;
+}
+.image-box .box-image p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #1C1C59;
+}
+
+/*image-box css end*/
+/*footer css start*/
+.footer{
+	width: 100%;
+	float: left;
+	padding: 15px 0px;
+	background: #1B6BFF;
+	text-align: center;
+}
+.footer p{
+	font-size: 10px;
+	font-weight: 400;
+	line-height: 20px;
+	color: #9ECEFF;
+}
+.footer p a{
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 4px;
+}
+/*footer css end*/
+}
+
+/*responsive css end*/
